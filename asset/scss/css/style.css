@@ -1,0 +1,253 @@
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0 auto;
+  padding: 0;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+input,
+textarea,
+select,
+button {
+  outline: none;
+}
+
+input {
+  line-height: normal;
+}
+
+label,
+button {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+ul, li {
+  list-style: none;
+}
+
+.container {
+  max-width: 144rem;
+}
+
+.text {
+  color: #818DA9;
+  font-size: 1.8rem;
+}
+
+.button-primary {
+  font-family: "Poppins", sans-serif;
+  background-color: #3C50E0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: white;
+  Width: 160px;
+  Height: 50px;
+  box-shadow: 0px 15px 30px -10px rgba(60, 80, 224, 0.25);
+  border-radius: 10px;
+}
+
+.header {
+  padding-top: 4rem;
+  font-family: "Poppins", sans-serif;
+}
+.header-container {
+  display: flex;
+  justify-content: space-between;
+}
+.header-list {
+  display: flex;
+  align-items: center;
+  gap: 0 4rem;
+}
+.header-menu {
+  display: flex;
+  align-items: center;
+}
+.header-item {
+  font-size: 1.6rem;
+}
+.header .item-main {
+  color: #00005C;
+  font-weight: 600;
+}
+.header-button {
+  display: flex;
+  align-items: center;
+  font-size: 1.6rem;
+  gap: 0 2rem;
+}
+.header-started {
+  width: 13rem;
+  height: 5rem;
+  background-color: #3C50E0;
+  color: white;
+  box-shadow: 0px 15px 20px -10px rgba(60, 80, 224, 0.3);
+  border-radius: 10px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.hero {
+  background-color: #fff;
+  padding-top: 8rem;
+}
+.hero-container {
+  display: flex;
+}
+.hero-heading {
+  font-weight: 600;
+  font-size: 6.4rem;
+  line-height: 7.4rem;
+  max-width: 54rem;
+  padding-bottom: 2.3rem;
+  color: #00005C;
+}
+.hero-text {
+  max-width: 44.3rem;
+  line-height: 3rem;
+  color: #627193;
+  margin: 0 0 2rem 0;
+}
+.hero-button {
+  Width: 210px;
+  Height: 58px;
+  margin: 0 0 8rem 0;
+}
+.hero-list {
+  display: flex;
+  margin: 0;
+}
+.hero-revenue {
+  bottom: 0;
+  position: absolute;
+  margin-bottom: -13%;
+  margin-left: -18.5%;
+  border-radius: 20px;
+}
+.hero-img {
+  position: absolute;
+  top: 13%;
+  left: 12%;
+}
+.hero-works {
+  position: absolute;
+  right: 0;
+  margin-top: -5%;
+}
+.hero-image {
+  position: relative;
+  margin-top: -7%;
+}
+.hero .list-number {
+  margin-top: 5%;
+  width: 6.5rem;
+}
+.hero .list-btn {
+  margin-top: 9%;
+  width: 12rem;
+}
+.hero .list-img {
+  display: flex;
+  margin: 0;
+}
+.hero .list-img-extra {
+  width: 8.8rem;
+  height: 6rem;
+  margin-top: 7%;
+}
+
+.introduce {
+  margin-top: 9rem;
+  background-color: #F5FAFE;
+  max-width: 144rem;
+  height: 79rem;
+  font-family: "Poppins", sans-serif;
+}
+.introduce-heading {
+  padding: 9rem 0 1rem 0;
+  width: 567px;
+  height: 112px;
+  font-weight: 600;
+  font-size: 46px;
+  line-height: 56px;
+  text-align: center;
+  letter-spacing: -0.015em;
+  color: #00005C;
+}
+.introduce-text {
+  margin: 11rem 0 9rem 0;
+  text-align: center;
+}
+.introduce-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  height: 340px;
+  left: 135px;
+  top: 360px;
+  border: 1px solid #F5F5F5;
+  border-radius: 20px;
+}
+.introduce-item {
+  border: 1px solid #F5F5F5;
+  box-shadow: 0px 60px 80px -32px rgba(60, 80, 224, 0.16);
+  border-radius: 20px;
+  background: #FFFFFF;
+}
+.introduce-active {
+  background: #3C50E0;
+  box-shadow: 0px 60px 80px -32px rgba(60, 80, 224, 0.16);
+  border-radius: 20px;
+  color: white;
+}
+.introduce .text-active {
+  color: white !important;
+}
+.introduce .item-image {
+  width: 13rem;
+  height: 13rem;
+  margin-top: 3.4rem;
+}
+.introduce .item-heading {
+  font-size: 26px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: -0.005em;
+  color: #00005C;
+  margin: -1.2rem 0 2rem 0;
+}
+.introduce .item-text {
+  max-width: 36rem;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 32px;
+  text-align: center;
+  letter-spacing: -0.01em;
+  color: #627193;
+  margin-bottom: 5.3rem;
+  display: block;
+}
+
+/*# sourceMappingURL=style.css.map */
