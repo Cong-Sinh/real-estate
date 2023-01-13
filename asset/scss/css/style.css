@@ -71,6 +71,10 @@ ul, li {
   cursor: pointer;
 }
 
+.nav-main-moblie {
+  display: none;
+}
+
 .nav-bars-btn {
   margin-left: 20rem;
   width: 2.8rem;
@@ -151,6 +155,7 @@ ul, li {
 }
 .header-container {
   display: flex;
+  align-items: center;
   justify-content: space-between;
 }
 .header-list {
@@ -575,7 +580,6 @@ ul, li {
 @media screen and (max-width: 1024px) {
   .feature-list {
     flex-direction: column;
-    margin-right: 27%;
   }
   .feature-image {
     max-width: 58rem;
@@ -660,9 +664,19 @@ ul, li {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
+@media screen and (max-width: 1023.98px) {
+  .testimonials-image-content {
+    gap: 0 1.1rem;
+  }
+}
 .testimonials-img {
   max-width: 36rem;
   height: 52rem;
+}
+@media screen and (max-width: 1023.98px) {
+  .testimonials-img {
+    max-width: 31rem;
+  }
 }
 .testimonials-button {
   margin: 7rem auto 7.3rem auto;
