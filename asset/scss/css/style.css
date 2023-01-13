@@ -595,6 +595,11 @@ ul, li {
     flex-direction: column;
     margin: 0 auto;
   }
+  .feature-image-extra {
+    width: 52%;
+    top: -13%;
+    right: -17%;
+  }
 }
 @media screen and (max-width: 767px) {
   .feature .feature-list {
@@ -774,7 +779,9 @@ ul, li {
     top: 2%;
   }
   .campaign-extra-2 {
-    right: -7.6%;
+    width: 39%;
+    right: -3.5%;
+    bottom: 6%;
   }
   .campaign-extra-3 {
     right: 61.6%;
