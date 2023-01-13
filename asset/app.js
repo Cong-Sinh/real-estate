@@ -6,6 +6,16 @@ $('.completion-list').slick({
     slidesToShow: 3,
     dots: true,
     responsive: [
+
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          infinite: true,
+          dots: true
+        }
+      },
       {
         breakpoint: 768,
         settings: {

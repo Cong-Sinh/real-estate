@@ -1,8 +1,13 @@
 .footer{
+    background-color: #F5FAFE;
+    padding-top: 5.6rem;
+    // height: 80rem;
     &-container{
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr ;
     }
+
+    // 
 
     &-main-image{
         margin-bottom: 3.5rem;
@@ -36,4 +41,25 @@
         letter-spacing: -0.01em;
         color: #627193;
     }
+
+    @media screen and (max-width: 1023.98px) {
+        // height: 80rem;
+    }
+
+    @media screen and (max-width: 767.98px) {
+
+        height: 120rem;
+        &-container{
+            display: grid;
+            grid-template-columns: 1fr;
+            height: 100rem;
+        }
+
+    &-list{
+        margin-bottom: 3rem;
+        text-align: center;
+    }
+    }
+    
+    
 }

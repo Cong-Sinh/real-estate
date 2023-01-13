@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./asset/scss/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link
         rel="stylesheet"
         type="text/css"
@@ -17,6 +18,10 @@
 <!-- sass main.scss css/style.css --watch-->
 <body>
     <div class="wrapper">
+
+       
+
+        </div>
         <div class="header">
             <div class="container">
                 <div class="header-container">
@@ -43,6 +48,7 @@
                             </li>
                         </ul>
                     </div>
+                    
 
                     <div class="header-button">
                         <div class="header-signup ">
@@ -52,7 +58,57 @@
                             Get started
                         </div>
                     </div>
+
+                    <div class="nav-main-moblie">
+                        <label for="nav-moblie-input" class="nav-bars-btn">
+                            <svg xmlns="http://www.w3.org/2000/svg" 
+                            viewBox="0 0 448 512"><!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg>
+                        </label>
+
+                        <input type="checkbox" hidden name="" class="nav__input" id="nav-moblie-input">
+    
+
+                        
+                        <label for="nav-moblie-input" class="nav-overlay">
+                            
+                        </label>
+
+                        <div class="header-menu-moblie">
+                            <ul class="header-list-moblie">
+                                <label for="nav-moblie-input" class="header-moblie-close">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M310.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L160 210.7 54.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L114.7 256 9.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 301.3 265.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L205.3 256 310.6 150.6z"/></svg>
+                                </label>
+                                <li class="header-item-moblie">
+                                    <a href="#!" class="item-main text item-link-moblie">Home</a>
+                                </li>
+                                <li class="header-item">
+                                    <a href="#!" class="text item-link-moblie">Agent</a>
+                                </li>
+                                <li class="header-item">
+                                    <a href="#!" class="text item-link-moblie">Service</a>
+                                </li>
+                                <li class="header-item">
+                                    <a href="#!" class="text item-link-moblie">Why us</a>
+                                </li>
+                                <li class="header-item">
+                                    <a href="#!" class="text item-link-moblie">Markets</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="header-button">
+                            <div class="header-signup-moblie ">
+                                Sign up
+                            </div>
+                            <div class="header-started-moblie">
+                                Get started
+                            </div>
+                    </div>
+                    
                 </div>
+
+                
+
             </div>
         </div>
 
@@ -138,86 +194,89 @@
             <div class="container">
                 <div class="feature-container">
                     
-                    <div class="feature-image">
-                        <img srcset="./asset/image/feature1.png 2x" alt="">
-                        <img srcset="./asset/image/revenue.png 2x" alt="" class="feature-image-extra">
-                    </div>
-                    <div class="feature-content">
-                        <h2 class="feature-heading">
-                            Discover
-                            a place you'll love
-                            to live
-                        </h2>
-
-                        <p class="feature-text text">
-                            Take a deep dive and browse original neighborhood photos, drone footage.
-                        </p>
-
-                        <div class="feature-button button-primary">
-                            Learn more 
+                    <div class="feature-list">
+                        <div class="feature-image">
+                            <img srcset="./asset/image/feature1.png 2x" alt="" class="feature-image-main">
+                            <img srcset="./asset/image/revenue.png 2x" alt="" class="feature-image-extra">
                         </div>
-                        
+                        <div class="feature-content">
+                            <h2 class="feature-heading">
+                                Discover
+                                a place you'll love
+                                to live
+                            </h2>
+    
+                            <p class="feature-text text">
+                                Take a deep dive and browse original neighborhood photos, drone footage.
+                            </p>
+    
+                            <div class="feature-button button-primary">
+                                Learn more 
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="feature-list">
+                        <div class="feature-content">
+                            <h2 class="feature-heading">
+                                Access to tons of available listings
+                            </h2>
+    
+                            <p class="feature-text text">
+                                Comprehensive listings enable you to see what’s on the market.
+                                 Our brokers are on standby to answer any questions.
+                            </p>
+    
+                            <div class="feature-button button-primary">
+                                Learn more 
+                            </div>
                             
-                    </div>
-                </div>
-
-                <div class="feature-container">
-                    <div class="feature-content">
-                        <h2 class="feature-heading">
-                            Access to tons of available listings
-                        </h2>
-
-                        <p class="feature-text text">
-                            Comprehensive listings enable you to see what’s on the market.
-                             Our brokers are on standby to answer any questions.
-                        </p>
-
-                        <div class="feature-button button-primary">
-                            Learn more 
+                                <img src="" alt="">
                         </div>
                         
-                            <img src="" alt="">
+                        <div class="feature-image">
+                            <img srcset="./asset/image/feature2.png 2x" alt="">
+                            <img srcset="./asset/image/featuremid.png 2x" alt="" class="feature-image-extra-mid">
+                            <img srcset="./asset/image/revenue.png 2x" alt="" class="feature-image-extra feature-image-mid">
+                        </div>
                     </div>
                     
-                    <div class="feature-image">
-                        <img srcset="./asset/image/feature2.png 2x" alt="">
-                        <img srcset="./asset/image/featuremid.png 2x" alt="" class="feature-image-extra-mid">
-                        <img srcset="./asset/image/revenue.png 2x" alt="" class="feature-image-extra feature-image-mid">
-                    </div>
-                </div>
-
-                <div class="feature-container">
-                    <div class="feature-image">
-                        <img srcset="./asset/image/feature3.png 2x" alt="">
-                    </div>
-                    <div class="feature-content">
-                        <h2 class="feature-heading">
-                            Discover
-                            a place you'll love
-                            to live
-                        </h2>
-
-                        <p class="feature-text text">
-                            Take a deep dive and browse origin neighborhood photos.
-                        </p>
-
-                        <div class="feature-search">
-                            <div class="feature-check text">
-                                <img srcset="./asset/image/check.png 2x" alt="" class="search-text">
-                                <p>100 analytics campaings</p>
+                    <div class="feature-list">
+                        <div class="feature-image">
+                            <img srcset="./asset/image/feature3.png 2x" alt="">
+                        </div>
+                        <div class="feature-content">
+                            <h2 class="feature-heading">
+                                Discover
+                                a place you'll love
+                                to live
+                            </h2>
+    
+                            <p class="feature-text text">
+                                Take a deep dive and browse origin neighborhood photos.
+                            </p>
+    
+                            <div class="feature-search">
+                                <div class="feature-check text">
+                                    <img srcset="./asset/image/check.png 2x" alt="" class="search-text">
+                                    <p>100 analytics campaings</p>
+                                </div>
+    
+                                <div class="feature-check text">
+                                    <img srcset="./asset/image/check.png 2x" alt="" class="search-text">
+                                    <p>100 analytics campaings</p>
+                                </div>
                             </div>
-
-                            <div class="feature-check text">
-                                <img srcset="./asset/image/check.png 2x" alt="" class="search-text">
-                                <p>100 analytics campaings</p>
+    
+                            <div class="feature-button button-primary">
+                                Learn more 
                             </div>
                         </div>
-
-                        <div class="feature-button button-primary">
-                            Learn more 
-                        </div>
                     </div>
+               
+                    
                 </div>
+
             </div>
         </div>
 

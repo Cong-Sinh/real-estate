@@ -100,4 +100,89 @@ font-family: $font;
     }
 
    
+    @media screen and (max-width: 1023.98px) {
+        .campaign-container{
+            flex-direction: column;
+        }
+
+        &-main{
+        margin-left: 4.7rem;
+        }
+
+        &-extra-1{
+            right: -10.4%;
+            top: 2%;
+        }
+
+        &-extra-2{
+            right: -7.6%;
+        }
+
+        &-extra-3{
+            right: 61.6%;
+            bottom: 12%;
+
+        }
+        &-extra-4{
+            right: 41.8%;
+        }
+
+        &-heading{
+            margin: 0 auto;
+            max-width: 40rem;
+            height: 11.2rem;
+            text-align: center;
+            font-weight: 600;
+            font-size: 3.4rem;
+            line-height: 5.6rem;
+        }
+
+        &-text{
+            font-size: 1.6rem;
+            text-align: center;
+            margin:  1rem auto;
+        }
+        }
+
+        @media screen and (max-width: 767px) {
+            &-main{
+                margin-left: 2.5rem;
+            }
+
+            &-extra{
+                &-1{
+                    right: -5.4%;
+                    top: 16.6%;
+                    max-width: 49%;
+                }
+
+                &-2{
+                    right: -3.5%;
+                    max-width: 39%;
+                    bottom: 5%;
+                }
+
+                &-3{
+                    right: 61.6%;
+                    bottom: 12%;
+                    max-width: 17%;
+                }
+
+                &-4{
+                    right: 39.8%;
+                    width: 16%;
+                    top: 50%;
+                }
+            }
+            
+            
+        }
+
+        @media screen and (max-width: 768px) {
+            &-heading{
+                font-size: 3rem;
+                line-height: 5rem;
+            }
+            }
+        
 }
