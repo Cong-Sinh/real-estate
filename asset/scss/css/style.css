@@ -593,7 +593,7 @@ ul, li {
 @media screen and (max-width: 1023.98px) {
   .feature-list {
     flex-direction: column;
-    margin-right: 45%;
+    margin: 0 auto;
   }
 }
 @media screen and (max-width: 767px) {
