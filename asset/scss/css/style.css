@@ -107,7 +107,7 @@ ul, li {
   background-color: rgb(255, 255, 255);
   margin-left: 0;
   z-index: 100;
-  transform: translateX(-140%);
+  transform: translateX(120%);
   transition: all 0.5s linear;
   opacity: 0;
 }
@@ -130,7 +130,7 @@ ul, li {
   font-size: 1.4rem;
   position: absolute;
   top: 1rem;
-  right: 1rem;
+  left: 1rem;
   width: 3rem;
 }
 
@@ -140,12 +140,15 @@ ul, li {
 }
 
 .nav__input:checked ~ .header-menu-moblie {
-  transform: translatex(0%);
+  transform: translatex(32%);
   opacity: 1;
 }
 
 @media screen and (max-width: 767px) {
   .nav-bars-btn {
+    display: block;
+  }
+  .nav-main-moblie {
     display: block;
   }
 }
