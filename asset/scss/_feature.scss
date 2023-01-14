@@ -98,7 +98,7 @@
         }
 
         &-text{
-            height: 12rem;
+            height: 10rem;
         }
 
         &-button{
@@ -124,6 +124,14 @@
    @media screen and (max-width: 767px) {
     .feature-list{
         margin: 0 auto;
+    }
+
+    .feature-content{
+        text-align: center;
+    }
+    
+    .feature-text{
+        margin-right: 0;
     }
 
     .feature-image-main{
