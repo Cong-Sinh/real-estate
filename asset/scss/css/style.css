@@ -916,7 +916,7 @@ ul, li {
 }
 @media screen and (max-width: 768px) {
   .completion .subscribe-content {
-    Width: 40rem;
+    Width: 35rem;
   }
 }
 .completion .subscribe-email {
@@ -972,8 +972,22 @@ ul, li {
     text-align: center;
     margin: 6rem auto 4rem auto;
   }
+  .completion .slick-track {
+    gap: 0 1.5rem;
+  }
 }
 @media screen and (max-width: 767px) {
+  .completion .slick-track {
+    gap: 0 1rem;
+  }
+  .completion .completion-content-heading {
+    font-size: 1.8rem;
+  }
+  .completion .completion-content-button {
+    margin-top: 0.8rem;
+    max-width: 119px;
+    height: 39px;
+  }
   .completion .subscribe-button {
     Width: 96px;
     Height: 52px;

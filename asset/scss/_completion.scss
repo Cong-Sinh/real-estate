@@ -133,9 +133,28 @@
         text-align: center;
         margin: 6rem auto 4rem auto;
         }
+
+        .slick-track{
+            gap: 0 1.5rem;
+        }
     }
 
     @media screen and (max-width: 767px) {
+
+        .slick-track{
+            gap: 0 1rem;
+        }
+
+        .completion-content-heading{
+            font-size: 1.8rem;
+        }
+
+        .completion-content-button{
+            margin-top: 0.8rem;
+            max-width: 119px;
+            height: 39px;
+        }
+
        .subscribe-button{
         Width: 96px;
         Height: 52px;

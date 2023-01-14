@@ -21,8 +21,8 @@ $('.completion-list').slick({
         settings: {
           arrows: false,
           centerMode: true,
-          centerPadding: '40px',
-          slidesToShow: 3
+          centerPadding: '60px',
+          slidesToShow: 2
         }
       },
       {
